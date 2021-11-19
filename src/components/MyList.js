@@ -6,7 +6,7 @@ function MyList({ header, items, updateItem }) {
     <li
       key={item.id}
       onClick={() => updateItem(item.id)}
-      style={{ textDecoration: item.clicked ? 'line-through' : 'none' }}
+      style={{ textDecoration: item.clicked ? 'line-through' : '' }}
     >
       {item.text}
     </li>
