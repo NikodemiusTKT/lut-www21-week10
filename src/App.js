@@ -9,8 +9,8 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Switch>
           <Route path="/" exact component={MyContainer} />
           <Route path="/about" exact component={About} />
