@@ -28,7 +28,7 @@ function About() {
   if (listItems) {
     return <div>{listItems && postsList}</div>;
   } else {
-    return <div>No posts fetched</div>;
+    return null;
   }
 }
 export default About;
